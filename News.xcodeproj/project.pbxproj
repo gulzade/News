@@ -17,7 +17,6 @@
 		FC9E7C2828D7542C0057059E /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E7C2728D7542C0057059E /* News.swift */; };
 		FC9E7C2A28D754B60057059E /* DetailUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E7C2928D754B60057059E /* DetailUIViewController.swift */; };
 		FC9E7C2C28D757210057059E /* ShowMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E7C2B28D757210057059E /* ShowMoreViewController.swift */; };
-		FC9E7C2E28D75AFB0057059E /* culture.png in Resources */ = {isa = PBXBuildFile; fileRef = FC9E7C2D28D75AFB0057059E /* culture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		FC9E7C2728D7542C0057059E /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		FC9E7C2928D754B60057059E /* DetailUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUIViewController.swift; sourceTree = "<group>"; };
 		FC9E7C2B28D757210057059E /* ShowMoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMoreViewController.swift; sourceTree = "<group>"; };
-		FC9E7C2D28D75AFB0057059E /* culture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = culture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +73,6 @@
 				FC9E7C1F28D753690057059E /* Info.plist */,
 				FC9E7C2528D753C90057059E /* NewsCollectionViewCell.swift */,
 				FC9E7C2728D7542C0057059E /* News.swift */,
-				FC9E7C2D28D75AFB0057059E /* culture.png */,
 				FC9E7C2928D754B60057059E /* DetailUIViewController.swift */,
 				FC9E7C2B28D757210057059E /* ShowMoreViewController.swift */,
 			);
@@ -142,7 +139,6 @@
 			files = (
 				FC9E7C1E28D753690057059E /* LaunchScreen.storyboard in Resources */,
 				FC9E7C1B28D753690057059E /* Assets.xcassets in Resources */,
-				FC9E7C2E28D75AFB0057059E /* culture.png in Resources */,
 				FC9E7C1928D753680057059E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
