@@ -12,6 +12,7 @@ class NewsCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var newsCategoryLabel: UILabel!
     func setupView(){
+
         newsImageView.layer.masksToBounds = true
         newsImageView.layer.borderColor = UIColor.systemGray4.cgColor
         newsImageView.layer.borderWidth = 1.0

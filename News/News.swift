@@ -13,13 +13,14 @@ struct News {
     var newsImage:String?
     var newsDescription:String?
     var newsCategory:String?
+    var newsLink:String?
    
     
-    init(newsTitle: String, newsImage: String, newsDescription: String, newsCategory: String) {
+    init(newsTitle: String, newsImage: String, newsDescription: String, newsCategory: String, newsLink:String) {
          self.newsTitle = newsTitle
          self.newsImage = newsImage
          self.newsDescription = newsDescription
          self.newsCategory = newsCategory
-        
+         self.newsLink = newsLink
      }
 }

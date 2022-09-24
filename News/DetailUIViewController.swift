@@ -18,6 +18,8 @@ class DetailUIViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.title = news?.newsCategory
+        
         if let news = news {
             newsTitleLabel.text = news.newsTitle
             newsDescription.text = news.newsDescription
@@ -27,7 +29,12 @@ class DetailUIViewController: UIViewController {
     
     
     @IBAction func showMoreDeatailsButton(_ sender: Any) {
-       
+       let webvc =  self.storyboard?.instantiateViewController(withIdentifier: "ShowMoreViewController") as!ShowMoreViewController
+        if let link = news?.newsLink {
+            webvc.newsLink = link
+            present(webvc, animated: true)
+        }
+        
     }
     
     
