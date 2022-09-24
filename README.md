@@ -1,6 +1,6 @@
-# HomeWork2
+# NewsApp (HomeWork2)
 
-<img alt= "welcome" src="" width="250"/><img alt="Ekran Resmi 2022-09-15 18 54 03" src="" width="250"/><img width="250" alt="firebaseLogin" src=""/><img  alt="Ekran Resmi 2022-09-15 18 54 18" src="g" width="250"/><img alt="Ekran Resmi 2022-09-15 19 05 08" src="" width="250"/>
+<img alt= "welcome" src="https://github.com/FMSS-IOS-Patika-Bootcamp/homework2-gulzade/blob/main/images/HomePage.png" width="250"/><img alt="DetailPage" src="https://github.com/FMSS-IOS-Patika-Bootcamp/homework2-gulzade/blob/main/images/DetailPage.png" width="250"/><img  alt="webViewPage" src="https://github.com/FMSS-IOS-Patika-Bootcamp/homework2-gulzade/blob/main/images/webViewPage.png" width="250"/>
 
           Haber Uygulaması
 - İlk sayfada Haberler Listelenicek.
