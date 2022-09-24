@@ -45,6 +45,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC31A93828DFA64B005C1644 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E7C2728D7542C0057059E /* News.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		FC31A93928DFA667005C1644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E7C2B28D757210057059E /* ShowMoreViewController.swift */,
+				FC9E7C2928D754B60057059E /* DetailUIViewController.swift */,
+				FC9E7C1528D753680057059E /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC31A93A28DFA6C0005C1644 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E7C2528D753C90057059E /* NewsCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FC31A93B28DFA6DC005C1644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E7C1328D753680057059E /* SceneDelegate.swift */,
+				FC9E7C1128D753680057059E /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC31A93C28DFA803005C1644 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E7C1C28D753690057059E /* LaunchScreen.storyboard */,
+				FC9E7C1728D753680057059E /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		FC9E7C0528D753680057059E = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +108,13 @@
 		FC9E7C1028D753680057059E /* News */ = {
 			isa = PBXGroup;
 			children = (
-				FC9E7C1128D753680057059E /* AppDelegate.swift */,
-				FC9E7C1328D753680057059E /* SceneDelegate.swift */,
-				FC9E7C1528D753680057059E /* ViewController.swift */,
-				FC9E7C1728D753680057059E /* Main.storyboard */,
+				FC31A93C28DFA803005C1644 /* Storyboards */,
+				FC31A93B28DFA6DC005C1644 /* Supporting Files */,
+				FC31A93A28DFA6C0005C1644 /* Cells */,
+				FC31A93928DFA667005C1644 /* View */,
+				FC31A93828DFA64B005C1644 /* Entity */,
 				FC9E7C1A28D753690057059E /* Assets.xcassets */,
-				FC9E7C1C28D753690057059E /* LaunchScreen.storyboard */,
 				FC9E7C1F28D753690057059E /* Info.plist */,
-				FC9E7C2528D753C90057059E /* NewsCollectionViewCell.swift */,
-				FC9E7C2728D7542C0057059E /* News.swift */,
-				FC9E7C2928D754B60057059E /* DetailUIViewController.swift */,
-				FC9E7C2B28D757210057059E /* ShowMoreViewController.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
