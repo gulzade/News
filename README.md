@@ -1,4 +1,4 @@
-# NewsApp (HomeWork2)
+# NewsApp 
 
 <img alt= "welcome" src="https://github.com/FMSS-IOS-Patika-Bootcamp/homework2-gulzade/blob/main/images/HomePage.png" width="250"/><img alt="DetailPage" src="https://github.com/FMSS-IOS-Patika-Bootcamp/homework2-gulzade/blob/main/images/DetailPage.png" width="250"/><img  alt="webViewPage" src="https://github.com/FMSS-IOS-Patika-Bootcamp/homework2-gulzade/blob/main/images/webViewPage.png" width="250"/>
 
